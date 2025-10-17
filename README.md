@@ -16,7 +16,7 @@ Bu proje, kullanıcıların günlük ve aylık harcamalarını kolayca takip etm
 * **Mobil Çerçeve:** React Native
 * **Geliştirme Ortamı:** Expo
 * **Programlama Dili:** JavaScript / TypeScript
-* **Veri Yönetimi:** (Kullandığınız kütüphane/yöntem - Örn: Redux, Context API, AsyncStorage, vb. Eğer bilmiyorsanız bu satırı çıkarın.)
+
 
 ## 🚀 Projeyi Yerelde Çalıştırma
 
