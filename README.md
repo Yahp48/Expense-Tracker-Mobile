@@ -1,50 +1,39 @@
-# Welcome to your Expo app 👋
+# 💰 Harcama Takip Mobil Uygulaması (Expense Tracker)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Proje Hakkında
 
-## Get started
+Bu proje, kullanıcıların günlük ve aylık harcamalarını kolayca takip etmelerini ve finansal durumlarını görselleştirmelerini sağlayan, modern bir **React Native** mobil uygulamasıdır. Kullanıcı dostu arayüzü ve sade tasarımı ile mali durumu kontrol altına almayı amaçlar.
 
-1. Install dependencies
+## 🎯 Temel Özellikler
 
-   ```bash
-   npm install
-   ```
+* **Harcama Kaydı:** Tarih, miktar, kategori ve açıklama bilgileriyle harcama girişi yapma.
+* **Kategorilendirme:** Harcamaları Yemek, Ulaşım, Fatura, Kişisel gibi önceden tanımlı kategorilere ayırma.
+* **Görsel Raporlama:** Harcama dağılımını gösteren **interaktif grafikler** ve özet raporlar sunma.
+* **Mobil Kullanım:** Hem **iOS** hem de **Android** platformlarında sorunsuz çalışacak şekilde tasarlanmıştır (Cross-Platform).
 
-2. Start the app
+## 🛠 Kullanılan Teknolojiler
 
-   ```bash
-   npx expo start
-   ```
+* **Mobil Çerçeve:** React Native
+* **Geliştirme Ortamı:** Expo
+* **Programlama Dili:** JavaScript / TypeScript
+* **Veri Yönetimi:** (Kullandığınız kütüphane/yöntem - Örn: Redux, Context API, AsyncStorage, vb. Eğer bilmiyorsanız bu satırı çıkarın.)
 
-In the output, you'll find options to open the app in a
+## 🚀 Projeyi Yerelde Çalıştırma
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Projenin kodlarını incelemek veya yerel ortamınızda çalıştırmak isterseniz aşağıdaki adımları takip edebilirsiniz:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1.  **Depoyu Klonlayın:**
+    ```bash
+    git clone [https://github.com/Yahp48/Expense-Tracker-Mobile.git](https://github.com/Yahp48/Expense-Tracker-Mobile.git)
+    ```
+2.  **Bağımlılıkları Yükleyin:**
+    ```bash
+    cd Expense-Tracker-Mobile
+    npm install
+    ```
+3.  **Uygulamayı Başlatın:**
+    ```bash
+    npx expo start
+    ```
+    *(Bu komut QR kod üretecektir. Telefonunuzdaki Expo Go uygulaması ile QR kodu tarayarak uygulamayı test edebilirsiniz.)*
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
